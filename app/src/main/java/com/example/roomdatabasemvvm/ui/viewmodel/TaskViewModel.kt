@@ -12,4 +12,6 @@ class TaskViewModel(private val repository: TaskRepository) : ViewModel() {
     fun insertTask(task: Task) = repository.insertTask(task)
 
     fun deleteTask(task: Task) = repository.deleteTask(task)
+
+    fun testTask(task: Task) = repository.deleteTask(task)
 }
